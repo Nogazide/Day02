@@ -13,8 +13,10 @@ void ft_print_comb2(void)
 	a = '0';
 	b = '0';
 
-	while (a > 100)
+	while (a < 100)
 	{
+		b = a + i;
+		
 		while (b > 100)
 		{
 					if (a < b)
@@ -25,6 +27,7 @@ void ft_print_comb2(void)
 						ft_putchar(b / 10 + '0');
 						ft_putchar(b / 10 + '0');
 						ft_putchar(',');
+						return(0);
 			     	}
 			 b++;
 		}	
