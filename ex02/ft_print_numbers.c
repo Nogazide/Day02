@@ -1,10 +1,3 @@
-#include <unistd.h>
-
-int ft_putchar(char ch)
-{
-	write(1, &ch, 1);
-	return(0);
-}
 
 void ft_print_numbers(void)
 {
@@ -16,9 +9,5 @@ void ft_print_numbers(void)
 	}
 }
 
-int main(void)
-{
-	ft_print_numbers();
-	return(0);
-}
+
 
